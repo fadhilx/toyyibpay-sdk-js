@@ -2,26 +2,43 @@ import ToyyibPay from "./lib";
 import { config } from "dotenv";
 config();
 
-const toyyib = new ToyyibPay(process.env.TOKEN ?? "");
-toyyib.logStatus();
-toyyib.createBill({
-  categoryCode: "xhrjpf2j",
-  billName: "Car Rental WXX123",
-  billDescription: "Car Rental WXX123 On Sunday",
-  billPriceSetting: 0,
-  billPayorInfo: 1,
-  billAmount: 100,
-  billReturnUrl: "http://localhost:1337//",
-  //   billCallbackUrl: "http://bizapp.my/paystatus",
-  billExternalReferenceNo: "AFR341DFI",
-  billTo: "John Doe",
-  billEmail: "jd@gmail.com",
-  billPhone: "0194342411",
-  billSplitPayment: 0,
-  billSplitPaymentArgs: "",
-  billPaymentChannel: "0",
-  billContentEmail: "Thank you for purchasing our product!",
-  billChargeToCustomer: 1,
-  billExpiryDate: "17-12-2020 17:00:00",
-  billExpiryDays: 3,
-});
+async function main() {
+  const toyyib = new ToyyibPay(process.env.TOKEN ?? "");
+  // const createCategory = await toyyib.createCategory(
+  //   "test" + Math.round(Math.random() * 10),
+  //   "desctest"
+  // );
+  // console.log("createCategory", createCategory);
+
+  // const createBill = await toyyib.createBill({
+  //   billName: "Car Rental WXX123",
+  //   billDescription: "Car Rental WXX123 On Sunday",
+  //   billPriceSetting: 1,
+  //   billPayorInfo: "0",
+  //   billAmount: 500,
+  //   billReturnUrl: "http://localhost:1201/",
+  //   billCallbackUrl: "http://localhost:1201/",
+  //   billExternalReferenceNo: "AFR341DFI",
+  //   billTo: "John Doe",
+  //   billEmail: "jd@gmail.com",
+  //   billPaymentChannel: "2",
+  //   billPhone: "0194342411",
+  //   categoryCode: createCategory[0].CategoryCode,
+  //   billChargeToCustomer: "",
+  //   billContentEmail: "Thank you for purchasing our product!",
+  // }); //vr6ezaog
+  // console.log("createBill", createBill);
+
+  // const inactiveBill = await toyyib.inactiveBill(createBill[0].BillCode);
+  // console.log("inactiveBill", inactiveBill);
+
+  const getBillTransactions = await toyyib.getBillTransactions("5vhdop7s");
+  console.log("getBillTransactions", getBillTransactions);
+
+  const getCategoryDetails = await toyyib.getCategoryDetails("iyd838xv");
+  console.log("getCategoryDetails", getCategoryDetails);
+
+  const getBank = await toyyib.getBank();
+  console.log("getBank", getBank);
+}
+main();
