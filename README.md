@@ -1,2 +1,2 @@
-# ToyyibPay SDK for TS/JS (WIP)
+# [WIP] ToyyibPay SDK for TS/JS
 (WIP)
