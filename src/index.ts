@@ -18,5 +18,7 @@ export {
   CreateBillParam,
   GetTransactionParam,
   CreateCategoryParam,
+  CallbackData,
+  ReturnData,
 } from "./declarations/toyyib";
 export default Toyyib;

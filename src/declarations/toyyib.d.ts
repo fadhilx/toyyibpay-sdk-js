@@ -5,6 +5,10 @@ import {
   BillChargeToEnum,
   BillPaymentStatusEnum,
 } from "./enum";
+interface SplitPaymentArgs {
+  id: string;
+  amount: string;
+}
 export interface ICreatedBill {
   BillCode: string;
 }
@@ -19,27 +23,6 @@ export interface ICategory {
 }
 export interface ICreatedCategory {
   CategoryCode: string;
-}
-export interface ITransaction {
-  billName: string;
-  billDescription: string;
-  billTo: string;
-  billEmail: string;
-  billPhone: string;
-  billStatus: string;
-  billPermalink: string;
-  categoryCode: string;
-  categoryName: string;
-  userName: string;
-  billpaymentChannel: string;
-  billSplitPayment?: number;
-  billSplitPaymentArgs: string;
-  billpaymentSettlement: string;
-  billpaymentSettlementDate: string;
-  billPaymentDate: string;
-  billpaymentStatus: string;
-  billpaymentAmount: string;
-  billpaymentInvoiceNo: string;
 }
 export interface IBank {
   id: string;
@@ -169,7 +152,7 @@ export interface CreateBillParam {
   /**
    * [OPTIONAL] Provide JSON for split payment. e.g. [{"id":"johndoe","amount":"200"}]
    */
-  billSplitPaymentArgs?: { id: string; amount: string }[];
+  billSplitPaymentArgs?: SplitPaymentArgs[];
 
   /**
    * Set 0 for FPX, 1 Credit Card and 2 for both FPX & Credit Card.
@@ -199,6 +182,28 @@ export interface CreateBillParam {
    * [OPTIONAL] Number of day(s) to allow payment attempt to be made. The bill will be set to inactive after the number of day(s). The default expiry time will be at 23:59:59 on the final
    */
   billExpiryDays?: number;
+}
+export interface ITransaction {
+  categoryCode: string;
+  billName: string;
+  billDescription: string;
+  billTo: string;
+  billEmail: string;
+  billPhone: string;
+  billSplitPayment?: number;
+  billSplitPaymentArgs: SplitPaymentArgs;
+
+  billStatus: string;
+  billPermalink: string;
+  categoryName: string;
+  userName: string;
+  billpaymentChannel: string;
+  billpaymentSettlement: string;
+  billpaymentSettlementDate: string;
+  billPaymentDate: string;
+  billpaymentStatus: string;
+  billpaymentAmount: string;
+  billpaymentInvoiceNo: string;
 }
 export interface CreateCategoryParam {
   /**
@@ -238,4 +243,26 @@ export interface IToyyibPay {
   getCategoryDetails: (categoryCode: string) => Promise<ICategory[]>;
   inactiveBill: (billCode: string) => Promise<InactivedBillStatus>;
   getBank: () => Promise<IBank[]>;
+}
+
+export interface CallbackData {
+  refno: string;
+  status: string;
+  reason: string;
+  billcode: string;
+  order_id: string;
+  amount: string;
+  status_id: string;
+  msg: string;
+  transaction_id: string;
+  fpx_transaction_id: string;
+  hash: string;
+  transaction_time: string;
+}
+export interface ReturnData {
+  status_id: number;
+  billcode: string;
+  order_id: string;
+  msg: string;
+  transaction_id: string;
 }
