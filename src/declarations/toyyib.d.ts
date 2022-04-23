@@ -183,6 +183,7 @@ export interface CreateBillParam {
    */
   billExpiryDays?: number;
 }
+
 export interface ITransaction {
   categoryCode: string;
   billName: string;
@@ -204,6 +205,8 @@ export interface ITransaction {
   billpaymentStatus: string;
   billpaymentAmount: string;
   billpaymentInvoiceNo: string;
+
+  billExternalReferenceNo: string;
 }
 export interface CreateCategoryParam {
   /**

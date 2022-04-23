@@ -41,6 +41,7 @@ class ToyyibPay implements IToyyibPay {
       mode === "live" ? "https://toyyibpay.com" : "https://dev.toyyibpay.com";
     this.http.defaults.baseURL = this.host;
   }
+
   private api(api: string) {
     return {
       send: async <T>(
@@ -90,19 +91,20 @@ class ToyyibPay implements IToyyibPay {
   }
 
   private hash(data: CallbackData) {
-    const secret = this.token;
     const { status_id, order_id, transaction_id, msg } = data;
     const md5sum = crypto.createHash("md5");
-    md5sum.update(`${secret}${status_id}${order_id}${transaction_id}${msg}`);
+    md5sum.update(
+      `${this.token}${status_id}${order_id}${transaction_id}${msg}`
+    );
     const clientHash = md5sum.digest("hex");
     return clientHash;
   }
-  verify(data: CallbackData) {
+  verifyCallbackData(data: CallbackData) {
     const hash = this.hash(data);
     return hash === data.hash;
   }
   async getCallbackDetail(callbackData: CallbackData) {
-    if (!this.verify(callbackData)) return;
+    if (!this.verifyCallbackData(callbackData)) return;
     const bill = await this.getBillTransactions({
       billCode: callbackData.billcode,
     });
