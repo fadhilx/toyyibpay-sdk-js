@@ -194,7 +194,7 @@ export interface ITransaction {
   billSplitPayment?: number;
   billSplitPaymentArgs: SplitPaymentArgs;
 
-  billStatus: string;
+  billStatus: "0" | "1";
   billPermalink: string;
   categoryName: string;
   userName: string;
@@ -202,7 +202,13 @@ export interface ITransaction {
   billpaymentSettlement: string;
   billpaymentSettlementDate: string;
   billPaymentDate: string;
-  billpaymentStatus: string;
+  /**
+   * 1 - Successful transaction
+   * 2 - Pending transaction
+   * 3 - Unsuccessful transaction
+   * 4 - Pending
+   */
+  billpaymentStatus: "1" | "2" | "3" | "4";
   billpaymentAmount: string;
   billpaymentInvoiceNo: string;
 
@@ -250,12 +256,24 @@ export interface IToyyibPay {
 
 export interface CallbackData {
   refno: string;
-  status: string;
+  /**
+   * Payment status.
+   * * 1 = success
+   * * 2 = pending
+   * * 3 = fail
+   */
+  status: "1" | "2" | "3";
   reason: string;
   billcode: string;
   order_id: string;
   amount: string;
-  status_id: string;
+  /**
+   * Payment status.
+   * * 1 = success
+   * * 2 = pending
+   * * 3 = fail
+   */
+  status_id: "1" | "2" | "3";
   msg: string;
   transaction_id: string;
   fpx_transaction_id: string;
