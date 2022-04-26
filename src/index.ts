@@ -1,4 +1,5 @@
 import Toyyib from "./lib";
+export { ToyyibPay } from "./lib";
 export { jsonToFormData } from "./lib";
 export {
   PriceSettingEnum,
@@ -7,7 +8,7 @@ export {
   BillChargeToEnum,
   BillPaymentStatusEnum,
 } from "./declarations/enum";
-export {
+export type {
   IBank,
   ICategory,
   ICreatedBill,

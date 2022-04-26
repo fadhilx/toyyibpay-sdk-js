@@ -29,19 +29,21 @@ export function jsonToFormData(json) {
   return formData;
 }
 
-class ToyyibPay implements IToyyibPay {
-  private token: string;
+export class ToyyibPay implements IToyyibPay {
+  private token?: string;
   host: "https://toyyibpay.com" | "https://dev.toyyibpay.com";
 
   http = axios.create({});
 
-  constructor(token: string = "", mode: "sandbox" | "live" = "sandbox") {
+  constructor(token?: string, mode: "sandbox" | "live" = "sandbox") {
     this.token = token;
     this.host =
       mode === "live" ? "https://toyyibpay.com" : "https://dev.toyyibpay.com";
     this.http.defaults.baseURL = this.host;
   }
-
+  private _token_required() {
+    if (!this.token) throw "token is necessary for this api";
+  }
   private api(api: string) {
     return {
       send: async <T>(
@@ -65,9 +67,11 @@ class ToyyibPay implements IToyyibPay {
   }
 
   createCategory(category: CreateCategoryParam): Promise<ICreatedCategory[]> {
+    this._token_required();
     return this.api("/index.php/api/createCategory").send(category);
   }
   createBill(bill: CreateBillParam): Promise<ICreatedBill[]> {
+    this._token_required();
     return this.api("/index.php/api/createBill").send(bill);
   }
   getBillTransactions(query: GetTransactionParam): Promise<ITransaction[]> {
@@ -79,6 +83,7 @@ class ToyyibPay implements IToyyibPay {
     });
   }
   inactiveBill(billCode: string): Promise<InactivedBillStatus> {
+    this._token_required();
     return this.api("/index.php/api/inactiveBill").send(
       {
         billCode,
