@@ -16,11 +16,11 @@
         "allowJs": true,
         "outDir": "dist",
         "rootDir": "src",
-        "noEmitOnError": true,
+        "noEmitOnError": false,
         "resolveJsonModule": true,
         "sourceMap": true,
         "strictNullChecks": true,
-        "isolatedModules": true
+        "isolatedModules": true,
     },
     "include": [
         "src/**/*.ts"
