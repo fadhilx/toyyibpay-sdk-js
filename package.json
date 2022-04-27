@@ -1,8 +1,14 @@
 {
-  "name": "toyyibpay-sdk-js",
-  "version": "1.0.2",
+  "name": "toyyibpay-sdk",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "src/index.ts",
+  "files": [
+    "dist/**",
+    "src/**",
+    "README.md",
+    "tsconfig.json"
+  ],
   "license": "MIT",
   "dependencies": {
     "axios": "^0.26.1",
