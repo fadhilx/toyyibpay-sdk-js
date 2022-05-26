@@ -30,4 +30,4 @@ run();
 ```
 
 ## Documentation
-for method documentation please look at [`ToyyibPay`](docs/classes/ToyyibPay.md#methods-1)
+for method documentation please look at [ToyyibPay](docs/classes/ToyyibPay.md#methods-1)
