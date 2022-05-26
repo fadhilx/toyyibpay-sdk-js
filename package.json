@@ -9,6 +9,15 @@
     "README.md",
     "tsconfig.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadhilx/toyyibpay-sdk-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fadhilx/toyyibpay-sdk-js/issues"
+  },
+  "homepage": "https://github.com/fadhilx/toyyibpay-sdk-js",
+  "author": "Fadhil Ahmad",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.26.1",
@@ -22,6 +31,8 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.25",
+    "typedoc": "^0.22.15",
+    "typedoc-plugin-markdown": "^3.12.1",
     "typescript": "^4.6.3"
   }
 }
