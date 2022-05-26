@@ -85,7 +85,7 @@ Key in the bill amount. The amount is in cent. e.g. 100 = RM1. If you set billPr
 
 #### Defined in
 
-[declarations/toyyib.d.ts:115](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L115)
+[declarations/toyyib.d.ts:115](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L115)
 
 ___
 
@@ -97,7 +97,7 @@ Key in callback url if you need the bill to be redirected to your callback page 
 
 #### Defined in
 
-[declarations/toyyib.d.ts:125](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L125)
+[declarations/toyyib.d.ts:125](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L125)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:174](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L174)
+[declarations/toyyib.d.ts:174](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L174)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:165](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L165)
+[declarations/toyyib.d.ts:165](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L165)
 
 ___
 
@@ -138,7 +138,7 @@ Your bill description.
 
 #### Defined in
 
-[declarations/toyyib.d.ts:100](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L100)
+[declarations/toyyib.d.ts:100](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L100)
 
 ___
 
@@ -150,7 +150,7 @@ Provide your customer email here
 
 #### Defined in
 
-[declarations/toyyib.d.ts:140](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L140)
+[declarations/toyyib.d.ts:140](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L140)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:179](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L179)
+[declarations/toyyib.d.ts:179](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L179)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:184](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L184)
+[declarations/toyyib.d.ts:184](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L184)
 
 ___
 
@@ -186,7 +186,7 @@ Provide your own system reference no if you think it is required. You may use th
 
 #### Defined in
 
-[declarations/toyyib.d.ts:130](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L130)
+[declarations/toyyib.d.ts:130](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L130)
 
 ___
 
@@ -199,7 +199,7 @@ Your bill name. Bill Name will be displayed as bill title
 
 #### Defined in
 
-[declarations/toyyib.d.ts:94](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L94)
+[declarations/toyyib.d.ts:94](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L94)
 
 ___
 
@@ -211,7 +211,7 @@ Set 0 for FPX, 1 Credit Card and 2 for both FPX & Credit Card.
 
 #### Defined in
 
-[declarations/toyyib.d.ts:160](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L160)
+[declarations/toyyib.d.ts:160](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L160)
 
 ___
 
@@ -223,7 +223,7 @@ If you want to create open bill without require payer information, set it to 0. 
 
 #### Defined in
 
-[declarations/toyyib.d.ts:110](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L110)
+[declarations/toyyib.d.ts:110](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L110)
 
 ___
 
@@ -235,7 +235,7 @@ Provide your customer phone number here.
 
 #### Defined in
 
-[declarations/toyyib.d.ts:145](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L145)
+[declarations/toyyib.d.ts:145](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L145)
 
 ___
 
@@ -247,7 +247,7 @@ For fixed amount bill, set it to 1 and insert bill amount. For dynamic bill (use
 
 #### Defined in
 
-[declarations/toyyib.d.ts:105](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L105)
+[declarations/toyyib.d.ts:105](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L105)
 
 ___
 
@@ -259,7 +259,7 @@ Key in return Url if you need the bill to be redirected to your own page upon pa
 
 #### Defined in
 
-[declarations/toyyib.d.ts:120](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L120)
+[declarations/toyyib.d.ts:120](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L120)
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:150](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L150)
+[declarations/toyyib.d.ts:150](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L150)
 
 ___
 
@@ -283,7 +283,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:155](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L155)
+[declarations/toyyib.d.ts:155](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L155)
 
 ___
 
@@ -295,7 +295,7 @@ If you intend to provide the bill to specific person, you may fill the person na
 
 #### Defined in
 
-[declarations/toyyib.d.ts:135](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L135)
+[declarations/toyyib.d.ts:135](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L135)
 
 ___
 
@@ -307,4 +307,4 @@ Category Code. Get your Category Code from Create Category API
 
 #### Defined in
 
-[declarations/toyyib.d.ts:88](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L88)
+[declarations/toyyib.d.ts:88](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L88)

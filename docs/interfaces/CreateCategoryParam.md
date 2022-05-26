@@ -19,7 +19,7 @@ Category Description
 
 #### Defined in
 
-[declarations/toyyib.d.ts:225](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L225)
+[declarations/toyyib.d.ts:225](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L225)
 
 ___
 
@@ -31,4 +31,4 @@ Category Name
 
 #### Defined in
 
-[declarations/toyyib.d.ts:221](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L221)
+[declarations/toyyib.d.ts:221](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L221)

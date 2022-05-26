@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[declarations/toyyib.d.ts:17](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L17)
+[declarations/toyyib.d.ts:17](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L17)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:16](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L16)
+[declarations/toyyib.d.ts:16](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L16)

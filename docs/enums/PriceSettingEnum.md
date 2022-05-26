@@ -19,7 +19,7 @@ ALLOW CUSTOMER TO CHANGE THE VALUE
 
 #### Defined in
 
-[declarations/enum.ts:5](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/enum.ts#L5)
+[declarations/enum.ts:5](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/enum.ts#L5)
 
 ___
 
@@ -31,4 +31,4 @@ SET TO CERTAIN AMOUNT, DISALLOW CUSTOMER TO CHANGE THE VALUE
 
 #### Defined in
 
-[declarations/enum.ts:3](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/enum.ts#L3)
+[declarations/enum.ts:3](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/enum.ts#L3)

@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[declarations/enum.ts:14](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/enum.ts#L14)
+[declarations/enum.ts:14](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/enum.ts#L14)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[declarations/enum.ts:13](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/enum.ts#L13)
+[declarations/enum.ts:13](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/enum.ts#L13)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[declarations/enum.ts:12](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/enum.ts#L12)
+[declarations/enum.ts:12](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/enum.ts#L12)

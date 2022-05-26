@@ -16,12 +16,9 @@
 
 - [host](ToyyibPay.md#host)
 - [http](ToyyibPay.md#http)
-- [token](ToyyibPay.md#token)
 
 ### Methods
 
-- [\_token\_required](ToyyibPay.md#_token_required)
-- [api](ToyyibPay.md#api)
 - [createBill](ToyyibPay.md#createbill)
 - [createCategory](ToyyibPay.md#createcategory)
 - [getBank](ToyyibPay.md#getbank)
@@ -29,7 +26,6 @@
 - [getCallbackDetail](ToyyibPay.md#getcallbackdetail)
 - [getCategoryDetails](ToyyibPay.md#getcategorydetails)
 - [getReturnDetail](ToyyibPay.md#getreturndetail)
-- [hash](ToyyibPay.md#hash)
 - [inactiveBill](ToyyibPay.md#inactivebill)
 - [verifyCallbackData](ToyyibPay.md#verifycallbackdata)
 
@@ -48,7 +44,7 @@
 
 #### Defined in
 
-[lib.ts:38](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L38)
+[lib.ts:38](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L38)
 
 ## Properties
 
@@ -58,7 +54,7 @@
 
 #### Defined in
 
-[lib.ts:34](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L34)
+[lib.ts:34](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L34)
 
 ___
 
@@ -68,57 +64,9 @@ ___
 
 #### Defined in
 
-[lib.ts:36](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L36)
-
-___
-
-### token
-
-• `Private` `Optional` **token**: `string`
-
-#### Defined in
-
-[lib.ts:33](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L33)
+[lib.ts:36](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L36)
 
 ## Methods
-
-### \_token\_required
-
-▸ `Private` **_token_required**(): `void`
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[lib.ts:44](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L44)
-
-___
-
-### api
-
-▸ `Private` **api**(`api`): `Object`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `api` | `string` |
-
-#### Returns
-
-`Object`
-
-| Name | Type |
-| :------ | :------ |
-| `send` | <T\>(`data?`: `any`, `tokenKey`: ``"userSecretKey"`` \| ``"secretKey"`` \| ``"enterpriseUserSecretKey"``) => `Promise`<`T`\> |
-
-#### Defined in
-
-[lib.ts:47](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L47)
-
-___
 
 ### createBill
 
@@ -140,7 +88,7 @@ ___
 
 #### Defined in
 
-[lib.ts:73](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L73)
+[lib.ts:73](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L73)
 
 ___
 
@@ -164,7 +112,7 @@ ___
 
 #### Defined in
 
-[lib.ts:69](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L69)
+[lib.ts:69](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L69)
 
 ___
 
@@ -182,7 +130,7 @@ ___
 
 #### Defined in
 
-[lib.ts:94](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L94)
+[lib.ts:94](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L94)
 
 ___
 
@@ -206,7 +154,7 @@ ___
 
 #### Defined in
 
-[lib.ts:77](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L77)
+[lib.ts:77](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L77)
 
 ___
 
@@ -226,7 +174,7 @@ ___
 
 #### Defined in
 
-[lib.ts:111](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L111)
+[lib.ts:111](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L111)
 
 ___
 
@@ -250,7 +198,7 @@ ___
 
 #### Defined in
 
-[lib.ts:80](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L80)
+[lib.ts:80](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L80)
 
 ___
 
@@ -270,27 +218,7 @@ ___
 
 #### Defined in
 
-[lib.ts:118](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L118)
-
-___
-
-### hash
-
-▸ `Private` **hash**(`data`): `string`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `data` | [`CallbackData`](../interfaces/CallbackData.md) |
-
-#### Returns
-
-`string`
-
-#### Defined in
-
-[lib.ts:98](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L98)
+[lib.ts:118](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L118)
 
 ___
 
@@ -314,7 +242,7 @@ ___
 
 #### Defined in
 
-[lib.ts:85](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L85)
+[lib.ts:85](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L85)
 
 ___
 
@@ -334,4 +262,4 @@ ___
 
 #### Defined in
 
-[lib.ts:107](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L107)
+[lib.ts:107](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L107)

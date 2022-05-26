@@ -55,7 +55,7 @@
 
 #### Defined in
 
-[lib.ts:121](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L121)
+[lib.ts:121](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L121)
 
 ___
 
@@ -75,4 +75,4 @@ ___
 
 #### Defined in
 
-[lib.ts:20](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/lib.ts#L20)
+[lib.ts:20](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/lib.ts#L20)

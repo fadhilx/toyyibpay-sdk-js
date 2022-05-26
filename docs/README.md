@@ -47,3 +47,6 @@ toyyib.createBill({
     billTo: "Aiman Zalani",
 });
 ```
+
+## Documentation
+for full documentation please look at [`docs`](docs/classes/ToyyibPay.md)

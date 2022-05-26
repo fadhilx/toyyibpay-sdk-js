@@ -199,6 +199,16 @@ source-map@^0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
+toyyibpay-sdk@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/toyyibpay-sdk/-/toyyibpay-sdk-1.0.0.tgz#801c72f6d3ad867e047a6d18a9af025803eb8c53"
+  integrity sha512-VHI1uZU3ZKFgJep3CvV2JAtUQmTQytvW0ZrckLA5XMyyD1UvXR2MkPaiLH5tHqHheIvi8A8CMyJGov2bdHv82A==
+  dependencies:
+    axios "^0.26.1"
+    crypto "^1.0.1"
+    dotenv "^16.0.0"
+    form-data "^4.0.0"
+
 typedoc-plugin-markdown@^3.12.1:
   version "3.12.1"
   resolved "https://registry.yarnpkg.com/typedoc-plugin-markdown/-/typedoc-plugin-markdown-3.12.1.tgz#2a33ca0018bdd7ed512e29960d3eb344ecb65f4a"

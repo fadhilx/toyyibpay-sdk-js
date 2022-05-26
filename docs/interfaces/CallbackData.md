@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[declarations/toyyib.d.ts:269](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L269)
+[declarations/toyyib.d.ts:269](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L269)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:267](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L267)
+[declarations/toyyib.d.ts:267](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L267)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:279](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L279)
+[declarations/toyyib.d.ts:279](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L279)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:280](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L280)
+[declarations/toyyib.d.ts:280](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L280)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:277](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L277)
+[declarations/toyyib.d.ts:277](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L277)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:268](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L268)
+[declarations/toyyib.d.ts:268](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L268)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:266](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L266)
+[declarations/toyyib.d.ts:266](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L266)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:258](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L258)
+[declarations/toyyib.d.ts:258](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L258)
 
 ___
 
@@ -112,7 +112,7 @@ Payment status.
 
 #### Defined in
 
-[declarations/toyyib.d.ts:265](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L265)
+[declarations/toyyib.d.ts:265](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L265)
 
 ___
 
@@ -127,7 +127,7 @@ Payment status.
 
 #### Defined in
 
-[declarations/toyyib.d.ts:276](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L276)
+[declarations/toyyib.d.ts:276](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L276)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:278](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L278)
+[declarations/toyyib.d.ts:278](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L278)
 
 ___
 
@@ -147,4 +147,4 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:281](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L281)
+[declarations/toyyib.d.ts:281](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L281)

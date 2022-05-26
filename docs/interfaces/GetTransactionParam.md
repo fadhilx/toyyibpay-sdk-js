@@ -20,7 +20,7 @@ eg: `td8bfqv7`
 
 #### Defined in
 
-[declarations/toyyib.d.ts:232](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L232)
+[declarations/toyyib.d.ts:232](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L232)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[declarations/toyyib.d.ts:244](https://github.com/fadhilx/toyyibpay-sdk-js/blob/7872f63/src/declarations/toyyib.d.ts#L244)
+[declarations/toyyib.d.ts:244](https://github.com/fadhilx/toyyibpay-sdk-js/blob/ee76517/src/declarations/toyyib.d.ts#L244)

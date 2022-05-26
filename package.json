@@ -1,6 +1,6 @@
 {
   "name": "toyyibpay-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "src/index.ts",
   "files": [
@@ -27,7 +27,10 @@
   },
   "scripts": {
     "dev": "tsc --watch",
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "doc:build": "typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts --excludePrivate",
+    "doc:watch": "nodemon --watch ./ -e ts,md --exec \"yarn doc:build\"",
+    "doc:serve": "nodemon --watch ./ -e ts,md --exec \"typedoc --plugin none --out .docs/ src/index.ts --excludePrivate && serve -n .docs\""
   },
   "devDependencies": {
     "@types/node": "^17.0.25",
